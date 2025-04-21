@@ -8,7 +8,6 @@ Perform the same process for each pixel that is directly adjacent (pixels that s
 Keep repeating this process by checking neighboring pixels of the updated pixels and modifying their color if it matches the original color of the starting pixel.
 The process stops when there are no more adjacent pixels of the original color to update.
 Return the modified image after performing the flood fill.
-
  */
 class Solution {
     int rows;
